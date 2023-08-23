@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    color: hsl(60, 10%, 19%);
+    
+   }
+   #container{
+    margin-top: 5rem; 
+}
+   #header{
+       display: flex;
+       justify-content: space-between;
+       color: hsl(60, 10%, 19%);
+       width: 425.91px;
+       margin: 0% auto;
+   }
+   #table{
+     text-align: end;
+     background-color:  hsl(0, 5%, 81%);
+   }
+   #clavier{
+    padding: 15px;
+    border-radius: 0.5rem;
+    background-color: hsl(0, 5%, 81%); 
+}
+   #ecran{
+   background-color: hsl(0, 0%, 93%);
+   margin-bottom: 0.5rem ;
+   text-align: end;
+   height: 5rem;
+border-radius: 0.5rem;
+   }
+   #contenu{
+ 
+     width: 425.91px;
+     margin: 0% auto;
+   }
+ 
+   .btn{
+       font-size: 32px;
+       font-weight: 700;
+       background-color: hsl(45, 7%, 89%);
+       box-shadow: 0px 2px 0px hsl(185, 58%, 25%);
+       color:hsl(221, 14%, 31%) ;
+       margin: 5px;
+   }
+   .taille{
+    width: 85.34px;
+}
+   .egale{
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0px 2px 0px  hsl(25, 99%, 27%);
+    color: hsl(0, 0%, 100%);
+    width: 183px;
+   }
+   .color{
+       background-color:  hsl(185, 42%, 37%);
+       box-shadow: 0px 2px 0px hsl(185, 58%, 25%);
+       color: hsl(0, 0%, 100%);
+   }
+   .reset{
+    width: 183px;
+}
