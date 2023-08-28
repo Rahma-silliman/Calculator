@@ -22,9 +22,7 @@ body {
   text-align: end;
 
 }
-th{
-    padding: 0;
-}
+
 #ecran {
   background-color: hsl(268, 71%, 12%);
   margin-bottom: 0.5rem;
@@ -34,7 +32,7 @@ th{
   border-radius: 0.5rem;
 }
 #contenu {
-  width: 425.91px;
+  width: 430px;
   margin: 0% auto;
 }
 #clavier {
