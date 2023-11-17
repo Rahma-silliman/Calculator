@@ -14,21 +14,22 @@ body {
 .range {
  width: 20px;
 }
-.form{
+.coli{
     background-color: hsl(268, 71%, 12%);
     border-radius: 15px;
 }
 #table {
   text-align: end;
-
 }
 
-#ecran {
+#interface {
+  padding-top: 1.6rem;
+  font-size: 32px;
   background-color: hsl(268, 71%, 12%);
   margin-bottom: 0.5rem;
   text-align: end;
   color: hsl(52, 100%, 62%);
-  height: 5rem;
+  height: 4rem;
   border-radius: 0.5rem;
 }
 #contenu {
@@ -40,8 +41,31 @@ body {
   border-radius: 0.5rem;
   background-color: hsl(268, 71%, 12%);
 }
+input{
+  border: none;
+ background-color:hsl(176, 100%, 44%);;
+ -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+
+border-radius: 50%;
+width: 12px;
+height: 12px;
+
+border: none;
+transition: 0.2s all linear;
+position: relative;
+
+ }
+
+input:checked {
+  border: 6px solid hsl(176, 100%, 44%);
+}
 
 .btn {
+  border: none;
+  border-radius: 5px;
+  height: 4rem;
   font-size: 32px;
   font-weight: 700;
   color: hsl(221, 14%, 31%);
